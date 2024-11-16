@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Edit
+Partial Class Edit_Crear
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -77,7 +77,7 @@ Partial Class Edit
         Me.Button2.Text = "Cancelar"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Edit
+        'Edit_Crear
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -88,8 +88,8 @@ Partial Class Edit
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Name = "Edit"
-        Me.Text = "Edit"
+        Me.Name = "Edit_Crear"
+        Me.Text = "Editar/Crear"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9D7EC298-D8EB-403C-89CE-F13731DD7795}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApp1.My.MyApplication</StartupObject>
-    <RootNamespace>WindowsApp1</RootNamespace>
-    <AssemblyName>WindowsApp1</AssemblyName>
+    <StartupObject>Vista.My.MyApplication</StartupObject>
+    <RootNamespace>Vista</RootNamespace>
+    <AssemblyName>Vista</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <DocumentationFile>Vista.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <DocumentationFile>Vista.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -80,13 +80,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccionesVista\Clientes_Productos\Editar\Edit.Designer.vb">
-      <DependentUpon>Edit.vb</DependentUpon>
+    <Compile Include="AccionesVista\Clientes_Productos\Editar_Crear\Edit_Crear.Designer.vb">
+      <DependentUpon>Edit_Crear.vb</DependentUpon>
     </Compile>
-    <Compile Include="AccionesVista\Clientes_Productos\Editar\Edit.vb">
+    <Compile Include="AccionesVista\Clientes_Productos\Editar_Crear\Edit_Crear.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AccionesVista\Clientes_Productos\Editar\Editar.vb" />
+    <Compile Include="AccionesVista\Clientes_Productos\Editar_Crear\Editar.vb" />
     <Compile Include="AccionesVista\Ventas\Editar\EditarVentas.vb" />
     <Compile Include="AccionesVista\Ventas\Editar\EditVentas.Designer.vb">
       <DependentUpon>EditVentas.vb</DependentUpon>
@@ -120,8 +120,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AccionesVista\Clientes_Productos\Editar\Edit.resx">
-      <DependentUpon>Edit.vb</DependentUpon>
+    <EmbeddedResource Include="AccionesVista\Clientes_Productos\Editar_Crear\Edit_Crear.resx">
+      <DependentUpon>Edit_Crear.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AccionesVista\Ventas\Editar\EditVentas.resx">
       <DependentUpon>EditVentas.vb</DependentUpon>

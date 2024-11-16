@@ -1,6 +1,5 @@
-﻿Imports Entidades
-
-Public Class Edit
+﻿Imports Dominio
+Public Class Edit_Crear
     Dim editar As New Editar
     Dim Guardar As New Save
     Private Sub Edit_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -13,6 +12,9 @@ Public Class Edit
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Guardar.save(Examen.modelo)
-        Hide()
+        Close()
+    End Sub
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Close()
     End Sub
 End Class

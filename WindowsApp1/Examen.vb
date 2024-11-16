@@ -1,9 +1,9 @@
-﻿Imports Entidades
+﻿Imports Dominio
 Public Class Examen
     Public clienteModelo As New ClienteModelo
     Public productoModelo As New ProductoModelo
     Public ventaModelo As New VentaModelo
-    Public modelo = clienteModelo
+    Public modelo
     Public accion
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         DataGridView1.DataSource = clienteModelo.GetClients()
@@ -16,12 +16,12 @@ Public Class Examen
 
     Private Sub Agregar_Click(sender As Object, e As EventArgs) Handles Agregar.Click
         accion = "agregar"
-        Edit.Show()
+        Edit_Crear.Show()
     End Sub
 
     Private Sub Actualizar_Click(sender As Object, e As EventArgs) Handles Actualizar.Click
         accion = "editar"
-        Edit.Show()
+        Edit_Crear.Show()
     End Sub
 
     Private Sub Borrar_Click(sender As Object, e As EventArgs) Handles Borrar.Click
