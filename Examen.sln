@@ -5,9 +5,9 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AccesoDatos", "AccesoDatos\AccesoDatos.vbproj", "{BF7C73F9-7A41-45E4-AA60-3557DF80EA51}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dominio", "Entidades\Dominio.vbproj", "{BDED7FF3-51EC-4663-B427-4526787E2F69}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dominio", "Dominio\Dominio.vbproj", "{BDED7FF3-51EC-4663-B427-4526787E2F69}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Vista", "WindowsApp1\Vista.vbproj", "{9D7EC298-D8EB-403C-89CE-F13731DD7795}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Vista", "Vista\Vista.vbproj", "{9D7EC298-D8EB-403C-89CE-F13731DD7795}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
