@@ -3,7 +3,7 @@ Imports AccesoDatos
 Public Class VentaModelo
     Private _ID As Integer
     Private _IDCliente As Integer
-    Private _Fecha As Date
+    Private _Fecha As DateTime
     Private _Total As Double
     Private _Estado As EstadoEntidad
     Private Repositorio As IVenta
@@ -28,11 +28,11 @@ Public Class VentaModelo
         End Set
     End Property
 
-    Public Property Fecha As String
+    Public Property Fecha As DateTime
         Get
             Return _Fecha
         End Get
-        Set(value As String)
+        Set(value As DateTime)
             _Fecha = value
         End Set
     End Property

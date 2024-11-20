@@ -9,12 +9,6 @@ Public Class VentasRepo
     Private update
     Private delete
 
-    Private Function obtenerFecha()
-        Dim fecha = Date.Now
-        Dim fehcaHoy = "" & fecha.Day & "/" & fecha.Month & "/" & fecha.Year & ""
-        Return fehcaHoy
-    End Function
-
     Public Sub New()
         selectAll = "select * from ventas"
         insert = "insert into ventas values(@IDCliente,@Fecha,@Total)"
@@ -40,7 +34,7 @@ Public Class VentasRepo
     Public Function Add(entity As Venta) As Integer Implements IGeneric(Of Venta).Add
         parameters = New List(Of SqlParameter) From {
             New SqlParameter("@IDCliente", entity.IDCliente),
-            New SqlParameter("@Fecha", obtenerFecha()),
+            New SqlParameter("@Fecha", entity.Fecha()),
             New SqlParameter("@Total", entity.Total)
         }
         Return ExecuteNonQuery(insert)
@@ -50,7 +44,7 @@ Public Class VentasRepo
         parameters = New List(Of SqlParameter) From {
             New SqlParameter("@ID", entity.ID),
             New SqlParameter("@IDCliente", entity.IDCliente),
-            New SqlParameter("@Fecha", obtenerFecha()),
+            New SqlParameter("@Fecha", entity.Fecha()),
             New SqlParameter("@Total", entity.Total)
         }
         Return ExecuteNonQuery(update)

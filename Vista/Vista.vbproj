@@ -105,14 +105,21 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AccionesVista\Clientes_Productos\Editar_Crear\Editar.vb" />
+    <Compile Include="AccionesVista\Ventas\Editar\ClientesLista.Designer.vb">
+      <DependentUpon>ClientesLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccionesVista\Ventas\Editar\ClientesLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AccionesVista\Ventas\Editar\EditarVentas.vb" />
+    <Compile Include="AccionesVista\Clientes_Productos\Guardar\Save.vb" />
     <Compile Include="AccionesVista\Ventas\Editar\EditVentas.Designer.vb">
       <DependentUpon>EditVentas.vb</DependentUpon>
     </Compile>
     <Compile Include="AccionesVista\Ventas\Editar\EditVentas.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AccionesVista\Clientes_Productos\Guardar\Save.vb" />
+    <Compile Include="AccionesVista\Ventas\Guardar\GuardarVentas.vb" />
     <Compile Include="Examen.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +147,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AccionesVista\Clientes_Productos\Editar_Crear\Edit_Crear.resx">
       <DependentUpon>Edit_Crear.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccionesVista\Ventas\Editar\ClientesLista.resx">
+      <DependentUpon>ClientesLista.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AccionesVista\Ventas\Editar\EditVentas.resx">
       <DependentUpon>EditVentas.vb</DependentUpon>

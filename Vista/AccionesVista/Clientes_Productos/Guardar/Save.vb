@@ -1,4 +1,5 @@
 ﻿Public Class Save
+    Dim guardarVentas As New GuardarVentas
     Public Sub save(Modelo)
         Dim result
         Select Case Modelo.clase
@@ -16,6 +17,8 @@
                 result = Modelo.saveChanges()
                 MessageBox.Show(result)
                 Examen.DataGridView1.DataSource = Modelo.GetProducts()
+            Case "Ventas"
+                guardarVentas.saveVentas(Modelo)
         End Select
     End Sub
 End Class
