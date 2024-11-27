@@ -3,7 +3,9 @@
 Public Class EditVentas
     Dim edit As New EditarVentas
     Dim save As New GuardarVentas
+    Public itemModelo As New ItemsModelo
     Private Sub EditVentas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        DataGridView1.DataSource = itemModelo.GetItems()
         Select Case Examen.accion
             Case "editar"
                 edit.actualizarVentas(Examen.modelo)

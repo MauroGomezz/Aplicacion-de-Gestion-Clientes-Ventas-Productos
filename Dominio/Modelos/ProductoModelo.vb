@@ -63,18 +63,18 @@ Public Class ProductoModelo
         Dim message As String = Nothing
 
         Try
-            Dim clientDataModel As New Producto()
-            clientDataModel.ID = ID
-            clientDataModel.Nombre = Nombre
-            clientDataModel.Precio = Precio
-            clientDataModel.Categoria = Categoria
+            Dim procutDataModel As New Producto()
+            procutDataModel.ID = ID
+            procutDataModel.Nombre = Nombre
+            procutDataModel.Precio = Precio
+            procutDataModel.Categoria = Categoria
 
             Select Case Estado
                 Case EstadoEntidad.Added
-                    Repositorio.Add(clientDataModel)
+                    Repositorio.Add(procutDataModel)
                     message = "Agregado correctamente"
                 Case EstadoEntidad.Modified
-                    Repositorio.Edit(clientDataModel)
+                    Repositorio.Edit(procutDataModel)
                     message = "Modificado correctamente"
                 Case EstadoEntidad.Deleted
                     Repositorio.Remove(ID)

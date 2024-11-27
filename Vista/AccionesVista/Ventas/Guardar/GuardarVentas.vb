@@ -1,5 +1,4 @@
 ﻿Public Class GuardarVentas
-
     Public Sub saveVentas(Modelo)
         Dim result
         Modelo.IDCliente = EditVentas.TextBox2.Text

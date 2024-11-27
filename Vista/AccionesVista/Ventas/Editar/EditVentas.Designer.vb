@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class EditVentas
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class EditVentas
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -38,46 +38,46 @@ Partial Class EditVentas
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.DataGridView1.Location = New System.Drawing.Point(277, 0)
+        Me.DataGridView1.Location = New System.Drawing.Point(268, 0)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(342, 498)
+        Me.DataGridView1.Size = New System.Drawing.Size(351, 498)
         Me.DataGridView1.TabIndex = 0
         '
         'TextBox1
         '
         Me.TextBox1.Enabled = False
-        Me.TextBox1.Location = New System.Drawing.Point(12, 85)
+        Me.TextBox1.Location = New System.Drawing.Point(12, 88)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(158, 20)
         Me.TextBox1.TabIndex = 1
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(12, 160)
+        Me.TextBox2.Location = New System.Drawing.Point(12, 163)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(158, 20)
         Me.TextBox2.TabIndex = 2
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(12, 240)
+        Me.TextBox3.Location = New System.Drawing.Point(12, 243)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(158, 20)
         Me.TextBox3.TabIndex = 3
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(12, 339)
+        Me.TextBox4.Location = New System.Drawing.Point(12, 334)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(158, 20)
         Me.TextBox4.TabIndex = 4
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(12, 266)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(12, 269)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 5
@@ -102,7 +102,7 @@ Partial Class EditVentas
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(186, 160)
+        Me.Button3.Location = New System.Drawing.Point(186, 163)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(65, 20)
         Me.Button3.TabIndex = 8

@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modelos\ClienteModelo.vb" />
+    <Compile Include="Modelos\ItemsModelo.vb" />
     <Compile Include="Modelos\ProductoModelo.vb" />
     <Compile Include="Modelos\VentaModelo.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
